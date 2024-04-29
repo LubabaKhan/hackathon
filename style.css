@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(246, 242,245);
+}
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+
+  nav img{
+    width: 100%;
+    height: auto;
+  }
+
+  .navbar-brand {
+    color: #fafafa !important;
+    font-weight: 700;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 35px !important;
+  }
+  
+  .navbar {
+    padding: 2px !important;
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+  }
+
+  .navbar-nav li a {
+    color:black;
+    font-size: 15px;
+    float: right;
+    text-align: left;
+  }
+
+
+form{
+    padding-left: 50px;
+}
+
+.navbar-toggler {
+    color: black !important;
+  }
+  
+
+  .hero{
+    flex: 1;
+  }
+  .hero h3{
+    margin: auto;
+    padding-top: 100px;
+    padding-left: 80px;
+  }
+
+  .hero span{
+    color: blueviolet;
+  }
+   .hero p{
+    padding-top: 40px;
+    padding-left: 80px;
+   }
+
+ .btn-outline-info{
+    margin-left: 80px;
+   }
+
+   .body-img {
+    display: flex;
+    align-items: center; 
+  }
+
+  .body-img img{
+    margin-left: 10px;
+  }
+  
+
+  
